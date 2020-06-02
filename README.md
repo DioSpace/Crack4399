@@ -1,2 +1,2 @@
-# LoadThirdSOBaseDemo
- AndroidStuido加载其他SO文件.基础模板
+# Crack4399
+ 分析4399小游戏的协议，密码在so层，加载so层来分析
