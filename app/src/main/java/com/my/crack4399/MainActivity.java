@@ -1,12 +1,9 @@
-package com.my.loadthirdsobasedemo;
+package com.my.crack4399;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-
-import com.m4399.framework.helpers.AppNativeHelper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,14 +12,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void load_encrypt_so(View view) {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String tmp = AppNativeHelper.getMd5("aaaa");
-                System.out.println("result:\n" + tmp);
-                Log.e("t1", "md5:\n" + tmp);
+                Login login = new Login();
+                login.login_func();
             }
         }).start();
     }
+
 }

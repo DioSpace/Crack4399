@@ -1,4 +1,4 @@
-package com.my.loadthirdsobasedemo;
+package com.my.crack4399;
 
 import org.junit.Test;
 

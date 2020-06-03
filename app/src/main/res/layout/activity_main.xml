@@ -10,6 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="load_encrypt_so"
-        android:text="调用so的加密" />
+        android:text="登录" />
 
 </LinearLayout>
